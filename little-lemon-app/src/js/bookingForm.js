@@ -16,7 +16,7 @@ function BookingForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission (e.g., send data to server or display confirmation)
-    console.log('Booking Details:', formData);
+    alert('Booking Successful');
   };
 
   return (

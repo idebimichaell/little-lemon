@@ -62,8 +62,16 @@ a {
   body {
     font-size: 18px;
   }
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
   .navbar li {
     padding: 1rem;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
   }
   .main-description {
     height: 20em;
@@ -184,14 +192,8 @@ a {
     line-height: 40px;
   }
 }
-.navbar {
-  display: flex;
-  align-items: center;
-}
-.navbar ul {
-  list-style: none;
-  display: flex;
-}
+
+
 .navbar a:hover {
   color: var(--accent-color);
 }
@@ -296,15 +298,22 @@ blockquote {
     max-width: 100%;
     margin: auto;
   }
+  .navbar {
+    max-width: 100%;
+  }
   .navbar a {
     color: var(--primary-color);
     font-weight: 600;
-    font-size: 16x;
-    padding: auto;
+    font-size: 16px;;
+    padding: 1px;
   }
-  .navbar li {
-    padding: auto;
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
   .main-description {
     height: auto;
     background-color: #495E57;
